@@ -6,11 +6,11 @@ public class MetierImpl implements IMetier {
 
     private IDao dao;
 
-    // No-argument constructor
+
     public MetierImpl() {
     }
 
-    // Constructor for Dependency Injection
+
     public MetierImpl(IDao dao) {
         this.dao = dao;
     }
